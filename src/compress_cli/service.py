@@ -10,5 +10,5 @@ API_ENDPOINT = os.environ.get(
 ).rstrip("/")
 DOWNLOAD_BASE_URL = os.environ.get(
     "COMPRESS_DOWNLOAD_BASE_URL",
-    "https://raw.githubusercontent.com/spenmcke/compress/main/releases",
+    "https://raw.githubusercontent.com/spenmcke/compress/refs/heads/main/releases",
 ).rstrip("/")

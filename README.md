@@ -11,7 +11,7 @@ output cannot be compressed safely, Codex receives the original output.
 `compress` requires macOS or Linux, Bash or Zsh, and the `codex` command.
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/spenmcke/compress/main/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/spenmcke/compress/refs/heads/main/scripts/install.sh | sh
 ```
 
 The installer verifies the package checksum, installs the `compress` command,
