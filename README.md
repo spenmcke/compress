@@ -8,7 +8,7 @@ output cannot be compressed safely, Codex receives the original output.
 
 ## Install
 
-`compress` requires macOS or Linux, Bash or Zsh, and the `codex` command.
+`everest` requires macOS or Linux, Bash or Zsh, and please ensure codex is installed beforehand.
 
 ```
 curl -fsSL https://install.everestagi.com/install.sh | sh && source ~/.config/everest/shell.sh
