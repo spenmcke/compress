@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "compress-cli"
+version = "0.1.0"
+description = "Compress Codex tool output before it enters model context"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "spenmcke" }]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[project.scripts]
+compress = "compress_cli.cli:main"
+
+[project.urls]
+Repository = "https://github.com/spenmcke/compress"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/compress_cli"]
