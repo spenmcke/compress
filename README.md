@@ -1,6 +1,6 @@
 # compress
 
-`compress` reduces Codex tool output before it enters the model context. Everest
+`everest` reduces Codex tool output before it enters the model context. Everest
 offers the service for free.
 
 Your terminal retains the original output. If compression is unavailable or an
@@ -21,15 +21,15 @@ Open a new terminal after installation, then run `codex` normally.
 Useful commands:
 
 ```sh
-compress savings          # show estimated savings for the latest run
-compress doctor           # check the service connection
-compress update --check   # check for an update
+everest savings          # show estimated savings for the latest run
+everest doctor           # check the service connection
+everest update --check   # check for an update
 codex --uncompressed      # run Codex without compression
-compress uninstall        # remove the integration and CLI
+everest uninstall        # remove the integration and CLI
 ```
 
 Uninstalling preserves local credentials, configuration, and savings history.
-Use `compress uninstall --purge` to remove those as well.
+Use `everest uninstall --purge` to remove those as well.
 
 ## Privacy
 
